@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+div#board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("board.jpg") no-repeat;
+    background-size: 70% auto;
+}
+div#messageArea {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: rgb(83, 175, 19);
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+table {
+    position: absolute;
+    left: 121px;
+    top: 69px;
+    border-spacing: 0px;
+}
+td {
+    width: 66px;
+    height: 66px;
+    cursor:crosshair;
+}
+
+
+.hit {background: url("ship.png") no-repeat center center; background-size: 70%;}
+.miss {background: url("miss.png") no-repeat center center; background-size: 70%;}
+#resetButton {
+position: absolute;
+top:560px;
+left:600px;
+background-color: rgb(2, 141, 2);
+font-family: fantasy;
+cursor: pointer;
+}
+#InfoArea {
+position:absolute;
+height: 30px;
+width: 500px;
+left: 340px;
+top: 1px;
+text-align: center;
+text-decoration: none;
+color: rgb(2, 141, 2);
+font-family: fantasy;
+font-size: x-large;
+}
+
+
