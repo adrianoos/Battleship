@@ -1,4 +1,5 @@
 live version -> https://adrianoos.github.io/Battleship/
+
 upgrades that i made according to learning version:
 - change input method from text field to click on elements
 - add reset button
